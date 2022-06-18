@@ -1,0 +1,39 @@
+.outer-login-div{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-div{
+    margin:20px;
+    width:400px;
+    padding: 30px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+.login-heading{
+    text-align: center;
+}
+.bt-div button{
+    background-color:#CB46D3;
+    font-weight: 600;
+    color:#ffff;
+    padding: 12px 18px;
+    border-radius: 25px;
+    border:none;
+}
+ 
+button:hover{
+    background-color: #c71ed0;
+}
+
+.formlink{
+    color:#CB46D3;
+    cursor: pointer;
+}
+.agreement{
+    font-weight: 100;
+    font-size: 14px;
+}

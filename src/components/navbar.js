@@ -7,7 +7,7 @@ function Navigation() {
     <>
       <Navbar>
         <Container>
-          <NavbarBrand>LOGO</NavbarBrand>
+          <NavbarBrand  style={{color: "#CB46D3"}}>LOGO</NavbarBrand>
           <Nav className="me-auto">
             <Nav.Link>
               <Link to="/">Courses</Link>
